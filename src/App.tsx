@@ -3,13 +3,7 @@ import "./App.css";
 import ExpenseList from "./Components/ExpenseList";
 import ExpenseFilter from "./Components/ExpenseFilter";
 import { ExpenseForm } from "./Components/ExpenseForm";
-
-export const categories = [
-  "Supplies",
-  "Entertainment",
-  "Planned",
-  "UnExpected",
-];
+import categories from "./Categories";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("");
